@@ -77,7 +77,7 @@ const Header = () => {
               ))}
               <div className={`${classes.nav__right}`}>
                 <Link
-                  href={`http://localhost:3000/cv.pdf`}
+                  href={`/cv.pdf`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={classes.nav__link}
