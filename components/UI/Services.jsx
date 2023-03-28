@@ -8,14 +8,12 @@ const Services = () => {
     <section id="services">
       <Container>
         <Row>
-          <Col lg="6" md="6">
+          <Col style={{}}>
+          <SectionSubtitle subtitle="What I do" />
             <h1 style={{fontSize: '20px'}}>Junior Web Developer</h1>
             <h3 style={{fontSize: '25px'}}>Coding Elephant Technology</h3>
             <span style={{fontSize: '18px', color: 'gray'}}>June 2022 - Present</span>
-          </Col>
 
-          <Col lg="6" md="6" className={`${classes.service__title}`}>
-            <SectionSubtitle subtitle="What I do" />
             <p>
               -At first, I was working as an Intern but now I am working as a Full Time employee.
               {' '}
@@ -36,6 +34,11 @@ const Services = () => {
               -I mainly work with HTML, CSS, Bootstrap, JavaScript, jQuery, React.js, Redux, Next.js, Express.js and MongoDB in this job.
             </p>
           </Col>
+
+          {/* <Col lg="6" md="6" className={`${classes.service__title}`}>
+            
+            
+          </Col> */}
         </Row>
       </Container>
     </section>

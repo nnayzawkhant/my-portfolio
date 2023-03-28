@@ -50,7 +50,7 @@ const Hero = () => {
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image alt="" src="images/IMG_20220814_141207.jpg" width="400" height="400" />
+              <Image alt="" src="/images/IMG_20220814_141207.jpg" width="400" height="400" />
             </div>
           </Col>
         </Row>

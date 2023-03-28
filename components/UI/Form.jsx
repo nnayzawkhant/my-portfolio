@@ -87,7 +87,7 @@ const Form = () => {
       </div>
 
       <button className="primary__btn" type="submit" disabled={!chat}>
-        {loading ? <span>loading...</span> : <span>Send</span>}
+        {loading ? <span>loading...</span> : <span style={{backgroundColor: 'transparent'}}>Send</span>}
       </button>
       <span style={{color: 'white', marginLeft: '20px'}}>
         {success && "Your message has been sent. We'll get back to you soon :)"}
