@@ -2,7 +2,6 @@ import React from 'react';
 import {Container, Row, Col} from 'reactstrap';
 import SectionSubtitle from './SectionSubtitle';
 import classes from '../../styles/services.module.css';
-import ServicesItem from './ServicesItem';
 
 const Services = () => {
   return (

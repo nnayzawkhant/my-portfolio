@@ -1,9 +1,6 @@
 import React from 'react';
 import {Container, Row, Col} from 'reactstrap';
-import Link from 'next/link';
 import SectionSubtitle from './SectionSubtitle';
-import Image from 'next/image';
-import img02 from '../../public/images/front-end-developers.png';
 
 import classes from '../../styles/about.module.css';
 
@@ -16,8 +13,7 @@ const About = () => {
             <SectionSubtitle subtitle="About me" />
 
             <p>
-              I am a hard-working, motivated and passionate web developer. I love to build awesome things for the web. I love to learn new things and share knowledge with people around me. I started studying programming in June 2022.I work everyday with Git, and Visual Studio Code.I have experience building ecommerce and blog websites, as well as custom web applications. I'm a quick learner who keeps up-to-date with the latest technologies and trends in web development
-
+              I am a hard-working, motivated and passionate web developer. I love to build awesome things for the web. I love to learn new things and share knowledge with people around me. I started studying programming in June 2022.I work everyday with Git, and Visual Studio Code.I have experience building ecommerce and blog websites, as well as custom web applications. I&apos;m a quick learner who keeps up-to-date with the latest technologies and trends in web development
             </p>
 
           </Col>

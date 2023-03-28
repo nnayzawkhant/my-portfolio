@@ -2,30 +2,6 @@ import React from "react";
 
 import { Container, Row, Col } from "reactstrap";
 import classes from "./footer.module.css";
-import Link from "next/link";
-
-const NAV__LINK = [
-  {
-    path: "/",
-    display: "Home",
-  },
-  {
-    path: "#about",
-    display: "About",
-  },
-  {
-    path: "#services",
-    display: "Services",
-  },
-  {
-    path: "#portfolio",
-    display: "Portfolio",
-  },
-  {
-    path: "#contact",
-    display: "Contact",
-  },
-];
 
 const Footer = () => {
   const date = new Date();
