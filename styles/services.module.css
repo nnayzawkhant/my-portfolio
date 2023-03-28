@@ -4,6 +4,10 @@
   column-gap: 2rem;
 }
 
+.ul_style li{
+  color: #01d293;
+}
+
 @media only screen and (max-width: 992px) {
   .services__container {
     flex-direction: column;
