@@ -20,7 +20,7 @@ const Hero = () => {
             console.log(fileURL)
         })
     })
-}
+  }
   return (
     <section className={`${classes.hero}`}>
       <Container>

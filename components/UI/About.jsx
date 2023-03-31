@@ -53,6 +53,12 @@ const About = () => {
                   </span>
                   Tailwind CSS
                 </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line" />
+                  </span>
+                  TypeScript
+                </h6>
 
               </div>
               <div>
@@ -79,6 +85,12 @@ const About = () => {
                     <i className="ri-checkbox-circle-line" />
                   </span>
                   Next.js
+                </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line" />
+                  </span>
+                  Laravel
                 </h6>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
@@ -111,6 +123,12 @@ const About = () => {
                     <i className="ri-checkbox-circle-line" />
                   </span>
                   MySQL
+                </h6>
+                <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
+                  <span className={`${classes.about__icon}`}>
+                    <i className="ri-checkbox-circle-line" />
+                  </span>
+                  PHP
                 </h6>
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
